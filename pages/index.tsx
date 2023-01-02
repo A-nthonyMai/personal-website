@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         <section>
           <p>
-            Hi, I&aposm Anto and I&aposm a software engineer based out of Melbourne, Australia.
+            Hi, I&apos;m Anto and I&apos;m a software engineer based out of Melbourne, Australia.
           </p>
         </section>
       </main>
