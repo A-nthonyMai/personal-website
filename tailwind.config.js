@@ -8,13 +8,14 @@ module.exports = {
     container: {
       center: true,
     },
-    colors: {
-      'mint-green': '#3CCF91'
+    extend: {
+      colors: {
+        'mint-green': '#3CCF91'
+      },
+      textColor: {
+        'mint-green': '#3CCF91'
+      },
     },
-    textColor: {
-      'mint-green': '#3CCF91'
-    },
-    extend: {},
   },
   plugins: [],
 }
