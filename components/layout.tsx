@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div className="bg-[#181a1b] h-screen text-gray-300">
+        <div>
             <Head>
                 <title>Anthony Mai</title>
                 <meta name="description" content="Anthony Mai's Personal Website" />
