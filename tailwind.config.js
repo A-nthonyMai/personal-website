@@ -10,7 +10,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        'mint-green': '#3CCF91'
+        'mint-green': '#3CCF91',
+        'mahogany-red': '#Cf3c3c',
+        'shakespeare-blue': '#3c94cf',
+        'fuchsia-pink': '#Cf3ccc',
+        'concrete-white': '#f2f2f2'
       },
       textColor: {
         'mint-green': '#3CCF91'
