@@ -7,10 +7,11 @@ type NavButtonProps = {
 }
 
 const NavButton = ({ buttonText, link, borderColour }: NavButtonProps) => {
-    const buttonCSS = 'w-36 md:w-48 lg:w-64 sticky top-[100vh] h-12 lg:h-8 font-medium text-center text-lg lg:text-xl'
+    const navButtonCSS = 'w-1/3 md:w-48 lg:w-64 text-center'
+
     return (
-        <div>
-            <button className={borderColour ? `border-b-4 ${borderColour} ${buttonCSS}` : buttonCSS}>
+        <div className={borderColour ? `border-b-4 ${borderColour} ${navButtonCSS}` : navButtonCSS}>
+            <button className='h-12 lg:h-8 font-medium text-sm md:text-lg lg:text-xl'>
                 <Link href={link}>
                     {buttonText}
                 </Link>
