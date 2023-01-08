@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import IconButton from '../components/iconButton'
+import NavBar from '../components/navbar'
 
 const profileID = 'a-nthonymai'
 
@@ -38,6 +39,7 @@ const Home = () => {
                     </div>
                 </section>
             </div>
+            <NavBar />
         </div>
     )
 }
