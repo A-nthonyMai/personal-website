@@ -12,7 +12,7 @@ const Projects = () => {
                                          play around with building and deploying using Vercel.
                                        `}
                     projectGitHubURL="https://github.com/A-nthonyMai/personal-website"
-                    projectScreenshotPath="/images/projects/personal-website.png"
+                    projectScreenshotPath="/images/projects/personal-website.avif"
                     projectURL="http://anto.au"
                     projectTechStack={['React', 'Typescript', 'TailwindCSS']}
                 />
