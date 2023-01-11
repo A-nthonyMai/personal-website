@@ -16,29 +16,6 @@ const Projects = () => {
                     projectURL="http://anto.au"
                     projectTechStack={['React', 'Typescript', 'TailwindCSS']}
                 />
-                <ProjectCard
-                    projectTitle="Test Application"
-                    projectDescription="This is the description for the Test Application"
-                    projectGitHubURL="https://github.com/A-nthonyMai/personal-website"
-                    projectScreenshotPath="/images/anthony-mai.avif"
-                    projectTechStack={['React', 'Typescript', 'TailwindCSS']}
-                />
-                <ProjectCard
-                    projectTitle="Test Application"
-                    projectDescription="This is the description for the Test Application"
-                    projectGitHubURL="http://localhost:3000/"
-                    projectScreenshotPath="/images/anthony-mai.avif"
-                    projectURL="http://localhost:3000/"
-                    projectTechStack={['React', 'Typescript', 'TailwindCSS']}
-                />
-                <ProjectCard
-                    projectTitle="Test Application"
-                    projectDescription="This is the description for the Test Application"
-                    projectGitHubURL="http://localhost:3000/"
-                    projectScreenshotPath="/images/anthony-mai.avif"
-                    projectURL="http://localhost:3000/"
-                    projectTechStack={['React', 'Typescript', 'TailwindCSS']}
-                />
             </div>
         </section>
     )
