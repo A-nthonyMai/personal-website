@@ -17,7 +17,7 @@ const ProjectCard = ({ projectURL, projectScreenshotPath, projectTitle, projectD
 
     return (
         <div className="flex flex-col items-center">
-            <div className="w-full md:w-3/5 h-full bg-shark-grey" >
+            <div className="w-full md:w-5/7 h-full bg-shark-grey" >
                 <div className="w-full sm:flex sm:flex-col">
                     <div className="w-full h-64 sm:h-48 lg:h-96 relative">
                         {projectURL ? <Link href={projectURL}>{imageComponent}</Link> : imageComponent}
