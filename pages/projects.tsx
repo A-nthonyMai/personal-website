@@ -2,9 +2,9 @@ import ProjectCard from "../components/projectCard"
 
 const Projects = () => {
     return (
-        <section id="projects" className="h-content">
+        <section id="projects" className="h-screen">
             <h1 className="text-3xl mx-1 my-5 md:text-5xl lg:mx-7 lg:my-7">Projects</h1>
-            <div className="h-full grid grid-cols-1 sm:grid-cols-3 sm:gap-12 sm:mx-12 sm:my-12">
+            <div className="h-content grid grid-cols-1 sm:grid-cols-3 sm:gap-12 sm:mx-12 sm:my-12">
                 <ProjectCard
                     projectTitle="Personal Website"
                     projectDescription={`This website was created as a fun way to showcase my personal projects.
