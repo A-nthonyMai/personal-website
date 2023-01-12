@@ -59,8 +59,7 @@ const ProjectCard = ({ projectURL, projectScreenshotPath, projectTitle, projectD
                                 buttonText="View Repo"
                                 cssClasses={`w-24 rounded-lg h-9 border border-solid 
                                              hover:border-2 hover:border-mint-green ${projectURL ? 'ml-9' : ''} 
-                                             font-bold text-sm md:text-md text-center`
-                                }
+                                             font-bold text-sm md:text-md text-center`}
                             />
                         </div>
                     </div>
