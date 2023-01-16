@@ -38,29 +38,26 @@ const ProjectCard = ({ projectURL, projectScreenshotPath, projectTitle, projectD
                             </ul>
                         </div>
 
-                        <div className='flex flex-row w-full justify-left mx-5 my-5'>
+                        <div className='flex flex-row sm:w-full justify-left mx-5 my-5'>
                             {
-                                projectURL ?
-                                    <ProjectButton
+                                projectURL
+                                    ? <ProjectButton
                                         url={projectURL}
                                         buttonText="Visit Site"
                                         cssClasses={`w-24 bg-concrete-white rounded-lg h-9 
-                                                     font-bold text-sm md:text-md text-center 
-                                                     text-black
-                                                     hover:underline decoration-mint-green
-                                                     hover:decoration-2
-                                                    `}
+                                                        font-bold text-sm md:text-md text-center 
+                                                        text-black
+                                                        hover:underline decoration-mint-green
+                                                        hover:decoration-2`}
                                     />
-                                    :
-                                    ''
+                                    : ''
                             }
                             <ProjectButton
                                 url={projectGitHubURL}
                                 buttonText="View Repo"
                                 cssClasses={`w-24 rounded-lg h-9 border border-solid 
                                              hover:border-2 hover:border-mint-green ${projectURL ? 'ml-9' : ''} 
-                                             font-bold text-sm md:text-md text-center`
-                                }
+                                             font-bold text-sm md:text-md text-center`}
                             />
                         </div>
                     </div>

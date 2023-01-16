@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import IconButton from '../components/iconButton'
-import NavBar from '../components/navbar'
+import IconButton from '../iconButton'
+import NavBar from '../navbar'
 
 const profileID = 'a-nthonymai'
 
-const Home = () => {
+const AboutMe = () => {
     return (
-        <section className='h-screen'>
-            <div className="m-auto h-3/5 flex flex-row items-center justify-center md:py-4 lg:py-12 lg:px-12">
+        <section id="aboutMe" className='w-full sm:h-screen flex flex-col'>
+            <div className="flex flex-row items-center justify-center my-12 md:my-32">
                 <div className='w-36 h-36 md:w-48 md:h-48 lg:w-96 lg:h-96 relative'>
                     <Image
                         className="rounded-full"
@@ -48,4 +48,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default AboutMe
