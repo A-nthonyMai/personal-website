@@ -7,7 +7,7 @@ const profileID = 'a-nthonymai'
 
 const AboutMe = () => {
     return (
-        <section className='w-fit sm:w-full sm:h-screen flex flex-col'>
+        <section id="aboutMe" className='w-full sm:h-screen flex flex-col'>
             <div className="flex flex-row items-center justify-center my-12 md:my-32">
                 <div className='w-36 h-36 md:w-48 md:h-48 lg:w-96 lg:h-96 relative'>
                     <Image
