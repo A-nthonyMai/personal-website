@@ -7,8 +7,6 @@ const Resume = () => {
                 <a
                     download
                     href="/assets/Anthony Mai - Resume.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className={`w-36 rounded-md h-9 border border-solid 
                          hover:border-2 font-bold text-sm md:text-md text-center hover:border-starship-yellow leading-loose`}
                 >
