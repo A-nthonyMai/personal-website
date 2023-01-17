@@ -18,7 +18,8 @@ module.exports = {
         'fuchsia-pink': '#Cf3ccc',
         'concrete-white': '#f2f2f2',
         'apple-green': '#4acf3c',
-        'sienna-orange': '#cf773c'
+        'sienna-orange': '#cf773c',
+        'starship-yellow': '#Ece442'
       },
       textColor: {
         'mint-green': '#3CCF91'
