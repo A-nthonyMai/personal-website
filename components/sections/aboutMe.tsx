@@ -34,7 +34,7 @@ const AboutMe = () => {
                         <IconButton
                             iconPath={'/images/email-icon.svg'}
                             additionalCSS="mr-7 invert"
-                            link={`mailto:anthony.mai@hotmail.com?subject=Hi Anto.au!`}
+                            link={`mailto:hello@anto.au?subject=Hi Anto.au!`}
                         />
                         <IconButton
                             iconPath={'/images/github-icon.svg'}
